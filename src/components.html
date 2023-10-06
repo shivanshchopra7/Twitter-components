@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-black font-inter flex flex-col gap-14 text-white px-10 pt-24 pb-10"> 
+    <div class="flex gap-24 items-center">
+<p class="text-white">Default</p>
+<fieldset class="flex group w-[426px] py-4 px-3 items-center gap-2.5 rounded-[4px] bg-transparent border border-n-500">
+    <legend class="text-neutral-500 text-xs font-medium leading-normal inline-flex px-1 justify-center items-center gap-2.5">
+        Label
+    </legend>
+    <input type="text" placeholder="label" class="bg-transparent placeholder-neutral-500 text-xs font-medium focus:outline-none">
+
+</fieldset>
+
+    </div>
+    <div class="flex gap-[80px] items-center">
+        <p class="text-white">Selected</p>
+        <fieldset class="flex group w-[426px] py-4 px-3 items-center justify-between gap-2.5 rounded-[4px] bg-transparent border border-n-500 focus-within:border-twitter">
+            <legend class="text-twitter-blue text-xs font-medium leading-normal inline-flex px-1 justify-center items-center gap-2.5">
+                Label
+            </legend>
+            <input type="text" placeholder="label" class="bg-transparent placeholder-neutral-500 text-xs font-medium focus:outline-none">
+        <img src="/public/images/icon.svg" alt="Tick-icon">
+        </fieldset>
+        
+            </div>
+
+<div class="flex gap-[12px] items-start w-[482px]">
+    <img src="/public/images/user-avatar.png" class="flex-shrink-0">
+    <input type="text" placeholder="What's Happening" class="bg-transparent text-4xl font-inter text-neutral-50 placeholder-neutral-600 caret-twitter-blue  focus:outline-none">
+</div>
+
+
+
+            <div class="flex gap-24 items-center">
+                <p>Default / Selected</p>
+                <div class="flex group w-[348px] h-[39px] py-2.5 pr-[247px] pl-4 flex-shrink-0 items-center gap-[15px] rounded-full bg-searchbar-fill focus-within:border focus-within:border-twitter">
+                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 fill-[#737373] group-focus-within:fill-twitter-blue">
+                        <g id="Group">
+                            <path id="Vector" d="M16.0446 15.2054L13.1471 12.3079C14.1961 11.065 14.8334 9.46109 14.8334 7.70834C14.8334 3.77375 11.643 0.583336 7.70837 0.583336C3.77379 0.583336 0.583374 3.77375 0.583374 7.70834C0.583374 11.6429 3.77379 14.8333 7.70837 14.8333C9.46192 14.8333 11.065 14.1968 12.3064 13.1471L15.2039 16.0446C15.3202 16.1602 15.473 16.2188 15.6235 16.2188C15.7739 16.2188 15.9282 16.161 16.043 16.0446C16.2766 15.8126 16.2766 15.4374 16.0446 15.2054ZM1.77087 7.70834C1.77087 4.43479 4.43483 1.77084 7.70837 1.77084C10.9819 1.77084 13.6459 4.43479 13.6459 7.70834C13.6459 10.9819 10.9819 13.6458 7.70837 13.6458C4.43483 13.6458 1.77087 10.9819 1.77087 7.70834Z" />
+                            </g>
+                    </svg>
+                    <input type="text" placeholder="Search" class="text-base font-normal leading-normal placeholder-neutral-600 bg-transparent focus:outline-none"/>
+                </div>
+            </div>
+            
+        
+</body>
+</html>
