@@ -1156,6 +1156,11 @@ video {
   border-color: rgb(29 155 240 / var(--tw-border-opacity));
 }
 
+.focus-within\:text-twitter-blue:focus-within {
+  --tw-text-opacity: 1;
+  color: rgb(29 155 240 / var(--tw-text-opacity));
+}
+
 .hover\:opacity-70:hover {
   opacity: 0.7;
 }
@@ -1167,4 +1172,9 @@ video {
 
 .group:focus-within .group-focus-within\:fill-twitter-blue {
   fill: #1D9BF0;
+}
+
+.group:focus-within .group-focus-within\:text-twitter-blue {
+  --tw-text-opacity: 1;
+  color: rgb(29 155 240 / var(--tw-text-opacity));
 }
